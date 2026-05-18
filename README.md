@@ -6,24 +6,25 @@ Network Analysis, and Ethical Hacking tools.
 ---
 
 ## 📁 Lab Structure
-cybersecurity-labs/
-├── 01-OSINT/
-│   ├── sherlock-username-recon.md
-│   ├── theharvester-domain-recon.md
-│   └── maltego-link-analysis.md
-├── 02-Network-Analysis/
-│   ├── nmap-port-scanning.md
-│   ├── wireshark-packet-analysis.md
-│   └── nikto-web-scanning.md
-├── 03-Digital-Forensics/
-│   ├── autopsy-disk-forensics.md
-│   ├── volatility-memory-forensics.md
-│   └── evidence-handling.md
-├── 04-Ethical-Hacking/
-│   ├── gobuster-directory-enum.md
-│   └── searchsploit-vulnerability-research.md
-└── 05-AI-Security/
-└── ollama-ai-integration.md
+
+📂 cybersecurity-labs  
+┣ 📂 01-OSINT  
+┃ ┣ 📄 sherlock-username-recon.md  
+┃ ┣ 📄 theharvester-domain-recon.md  
+┃ ┗ 📄 maltego-link-analysis.md  
+┣ 📂 02-Network-Analysis  
+┃ ┣ 📄 nmap-port-scanning.md  
+┃ ┣ 📄 wireshark-packet-analysis.md  
+┃ ┗ 📄 nikto-web-scanning.md  
+┣ 📂 03-Digital-Forensics  
+┃ ┣ 📄 autopsy-disk-forensics.md  
+┃ ┣ 📄 volatility-memory-forensics.md  
+┃ ┗ 📄 evidence-handling.md  
+┣ 📂 04-Ethical-Hacking  
+┃ ┣ 📄 gobuster-directory-enum.md  
+┃ ┗ 📄 searchsploit-vulnerability-research.md  
+┗ 📂 05-AI-Security  
+  ┗ 📄 ollama-ai-integration.md
 ---
 
 ## 🧪 Labs Completed
