@@ -45,3 +45,24 @@ ollama run tinyllama "Analyze web vulnerabilities: $(cat nikto_results.txt)"
 | Mistral | 4.1GB | 6GB+ | Good for code |
 
 ## Workflow
+
+1. Run Nmap scan against target
+2. Save output to .txt file
+3. Pass output to Ollama AI
+4. AI generates security analysis
+5. Save report to case folder
+
+## Key Findings
+- AI successfully analyzed Nmap scan results
+- TinyLlama works with limited RAM (1-2GB)
+- Local AI = no API limits, no internet required, private
+
+## Limitations
+- TinyLlama has limited accuracy on complex security analysis
+- Llama3 requires 6GB+ RAM for better results
+- CPU-only mode is slower than GPU acceleration
+
+## Lessons Learned
+- AI + Security tools is the future of automated pentesting
+- Local models protect sensitive client data
+- More RAM = better AI models = better analysis
