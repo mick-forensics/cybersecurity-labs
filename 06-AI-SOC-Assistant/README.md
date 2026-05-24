@@ -36,8 +36,8 @@ real-time cybersecurity analysis and system inspection through Telegram.
 | Component | Purpose | Address |
 |---|---|---|
 | **Hermes Agent** | AI orchestration & Telegram gateway | Local service |
-| **Ollama** | Local LLM inference — no API limits | 127.0.0.1:11434 |
-| **Neo4j** | Knowledge graphs, attack path visualization | 127.0.0.1:7474 |
+| **Ollama** | Local LLM inference — no API limits | 123.0.0.1:11434 |
+| **Neo4j** | Knowledge graphs, attack path visualization | 123.0.0.1:7474 |
 | **Telegram Bot API** | Remote command interface | @Ghost_ForensicSOC_Bot |
 | **Systemd** | Service management & auto-restart | User services |
 
@@ -49,8 +49,8 @@ real-time cybersecurity analysis and system inspection through Telegram.
 |---|---|
 | OS | Kali Linux |
 | Virtualization | VirtualBox NAT |
-| VM IP | 10.0.2.15 |
-| Hostname | TUUUEREEEUNAAABURLAA |
+| VM IP | 10.0.2.00 |
+| Hostname | TUUEREUNAABURLA |
 
 ---
 
@@ -98,7 +98,7 @@ Fix: Updated token directly in `~/.hermes/.env`
 
 Test command sent via Telegram:
 
-    analyze IP 10.0.2.15
+    analyze IP 10.0.2.00
 
 | Finding | Result |
 |---|---|
@@ -109,9 +109,9 @@ Test command sent via Telegram:
 
 | Service | Binding | Status |
 |---|---|---|
-| Ollama | 127.0.0.1:11434 | ✅ Local only |
-| Neo4j HTTP | 127.0.0.1:7474 | ✅ Local only |
-| Neo4j Bolt | 127.0.0.1:7687 | ✅ Local only |
+| Ollama | 123.0.0.1:11534 | ✅ Local only |
+| Neo4j HTTP | 123.0.0.1:7374 | ✅ Local only |
+| Neo4j Bolt | 123.0.0.1:7687 | ✅ Local only |
 
 ---
 
